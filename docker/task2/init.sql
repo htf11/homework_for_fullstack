@@ -1,0 +1,19 @@
+CREATE DATABASE mydb;
+
+\c mydb
+
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(50),
+  email VARCHAR(100) UNIQUE
+);
+
+CREATE TABLE products (
+  id SERIAL PRIMARY KEY,
+  title VARCHAR(100),
+  price DECIMAL(10,2)
+);
+
+CREATE ROLE app_user WITH LOGIN PASSWORD 'userpass';
+GRANT CONNECT ON DATABASE mydb TO app_user;
+GRANT SELECT, INSERT ON ALL TABLES IN SCHEMA public TO app_user;
