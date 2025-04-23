@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start:local": "env-cmd -f .env.local node app.js",
+    "start:dev": "env-cmd -f .env.dev node app.js",
+    "start:prod": "env-cmd -f .env.prod node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "env-cmd": "^10.1.0"
+  }
+}
