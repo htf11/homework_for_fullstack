@@ -1,0 +1,23 @@
+.numbers {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    background: #333;
+    padding: 10px;
+
+    li {
+        padding: 5px;
+        width: 40px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    @for $i from 1 through 100 {
+        li:nth-child(#{$i}) {
+            color: rgb($i, (256 - $i), 0);
+        }
+    }
+}
