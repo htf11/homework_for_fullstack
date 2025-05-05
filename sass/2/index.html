@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O'stories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="logo">
+            <span>O' stories</span>
+        </div>
+        <div class="top-header">
+            <button class="menu-toggle" aria-label="Открыть меню">
+                <i class="fa-solid fa-bars"></i>Меню
+            </button>
+            <div class="header-actions">
+                <a href="#" aria-label="Поиск">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#" aria-label="Статус заказа?">
+                    <i class="fa-solid fa-list"></i>
+                </a>
+                <a href="#" aria-label="Избранное">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#" aria-label="Корзина">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+        </div>
+        <nav class="category-nav">
+            <ul>
+                <li>
+                    <a href="#" class="active">Мужчинам</a>
+                </li>
+                <li>
+                    <a href="#">Женщинам</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <nav class="breadcrumbs" aria-label="breadcrumb">
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><span>/</span></li>
+                <li>Мужчинам</li>
+            </ul>
+        </nav>
+        <section class="category-header">
+            <h2>Мужчинам</h2>
+            <div class="controls">
+                <div class="elems">
+                    <button class="filter-button">
+                        <i class="fa-solid fa-sliders"></i>
+                        <span>Фильтры</span>
+                    </button>
+                    <button class="sort-button">
+                        <span>Сортировка</span>
+                        <i class="fa-solid fa-filter"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-grid">
+            <article class="product-card">
+                <div class="product-image">
+                    <span class="badge">Новинка</span>
+                    <button class="wishlist-button" aria-label="Добавить в избранное">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <img src="img/RwLV2eRdVa4.jpg" alt="Бомбер красный" class="image-stub" />
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Бомбер красный</h3>
+                    <p class="product-price">5 290 ₽</p>
+                    <button class="view-button" aria-label="Посмотреть товар">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <button class="wishlist-button" aria-label="Добавить в избранное">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <img src="img/31ffbd59-6752-352d-94c9-dbb8903b2e62.jpg" alt="Пальто кашемировое"
+                        class="image-stub" />
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Пальто кашемировое</h3>
+                    <p class="product-price">15 490 ₽</p>
+                    <button class="view-button" aria-label="Посмотреть товар">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <button class="wishlist-button" aria-label="Добавить в избранное">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <img src="img/6011675975.jpg" alt="Футболка горчичная" class="image-stub" />
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Футболка горчичная</h3>
+                    <p class="product-price">1 790 ₽</p>
+                    <button class="view-button" aria-label="Посмотреть товар">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <button class="wishlist-button" aria-label="Добавить в избранное">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <img src="img/6011635855.jpg" alt="Кардиган серый" class="image-stub" />
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Кардиган серый</h3>
+                    <p class="product-price">5 690 ₽</p>
+                    <button class="view-button" aria-label="Посмотреть товар">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <button class="wishlist-button" aria-label="Добавить в избранное">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <img src="img/5f0ec74c764310dd6d39084323b5828b.jpg" alt="Куртка с карманами" class="image-stub" />
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Куртка с карманами</h3>
+                    <p class="product-price">6 990 ₽</p>
+                    <button class="view-button" aria-label="Посмотреть товар">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <button class="wishlist-button" aria-label="Добавить в избранное">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <img src="img/muzhskoe-palto-enzo-2-1707x2276.jpg" alt="Пальто песочное" class="image-stub" />
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Пальто песочное</h3>
+                    <p class="product-price">18 990 ₽</p>
+                    <button class="view-button" aria-label="Посмотреть товар">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <button class="wishlist-button" aria-label="Добавить в избранное">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <img src="img/b9a3c27deddc76c9a53b5921bfcf8ac569cea627_original.jpeg" alt="Джинсы с принтом"
+                        class="image-stub" />
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Джинсы с принтом</h3>
+                    <p class="product-price">3 290 ₽</p>
+                    <button class="view-button" aria-label="Посмотреть товар">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <button class="wishlist-button" aria-label="Добавить в избранное">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <img src="img/15129f6d1551d12fdad5aa6448896167.jpg" alt="Джинсовая куртка с принтами"
+                        class="image-stub" />
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Джинсовая куртка с принтами</h3>
+                    <p class="product-price">6 490 ₽</p>
+                    <button class="view-button" aria-label="Посмотреть товар">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <button class="wishlist-button" aria-label="Добавить в избранное">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <img src="img/brand-denim-jacket-in-skinny-fit-with-stonewash-original-397716.jpg"
+                        alt="Джинсовая куртка голубая" class="image-stub" />
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Джинсовая куртка голубая</h3>
+                    <p class="product-price">2 990 ₽</p>
+                    <button class="view-button" aria-label="Посмотреть товар">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <button class="wishlist-button" aria-label="Добавить в избранное">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <img src="img/7111388366.jpg" alt="Водолазка Slim Fit" class="image-stub" />
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Водолазка Slim Fit</h3>
+                    <p class="product-price">3 790 ₽</p>
+                    <button class="view-button" aria-label="Посмотреть товар">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+            </article>
+
+        </section>
+
+        <button class="load-more-button">Показать еще</button>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="logo">
+            <a href="/">O' stories</a>
+        </div>
+        <nav class="social-links">
+            <ul>
+                <li>
+                    <a href="#" aria-label="VK">
+                        <img src="svg/Vk.svg" alt="VK">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Telegram">
+                        <img src="svg/TelegramPlane.svg" alt="Telegram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="YouTube">
+                        <img src="svg/Youtube.svg" alt="YouTube">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Twitter">
+                        <img src="svg/Twitter.svg" alt="Twitter">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
